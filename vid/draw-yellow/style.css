@@ -33,7 +33,15 @@ select{
      height: 80%;
      background-color:#B8A27A;
  }
+ .videoplacement {
+   width: 70vw;
+   height: 600px;
 
+   margin-top: 1.5%;
+   margin-left: 5%;
+
+   z-index:3;
+ }
 
  a {
    color: black;

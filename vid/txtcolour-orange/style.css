@@ -40,7 +40,15 @@ body {
   font-weight: bold;
   font-size: 9vw;
 }
+.videoplacement {
+  width: 70vw;
+  height: 600px;
 
+  margin-top: 1.5%;
+  margin-left: 5%;
+
+  z-index:1;
+}
 /*---------------footer--------------------*/
     .footer {
        position: fixed;

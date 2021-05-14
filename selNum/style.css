@@ -69,6 +69,27 @@ color: #F3EDE2;
 border: 2px solid #F3EDE2;
 }
 
+.buttonB {
+  position: center;
+  display: block;
+  width: 7vw;
+  height: 2vw;
+
+  font-family: 'Kavivanar', cursive;
+  border-radius: 20px;
+  background-color: #B8A27A;
+  border: none;
+  text-align: center;
+  color: #F3EDE2;
+  font-size: 1vw;
+
+  cursor: pointer;
+}
+.buttonB:hover {
+background: #F3EDE2;
+color: #B8A27A;
+border: 2px solid #B8A27A;
+}
 
 
 /*---------------footer--------------------*/

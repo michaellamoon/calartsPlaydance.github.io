@@ -11,7 +11,7 @@ body {
   background-color:#B8A27A;
   position: relative;
   width:80%;
-  height:650px;
+  height:60%;
 
   margin-top: 9%;
   margin-left: 10%;
@@ -58,9 +58,18 @@ border: 2px solid #F3EDE2;
   background-color:#B8A27A;
   position: absolute;
   width:100%;
-  height:2000px;
+  height:200vw;
 
   margin-top: 10%;
+}
+.d1{
+  color: #F3EDE2;
+  font-size: 2.15vw;
+  font-family: 'Kavivanar', cursive;
+  align-items: center;
+}
+.tab {
+ margin-left: 2.5em
 }
 
 /*---------------persons--------------------*/
@@ -74,7 +83,7 @@ border: 2px solid #F3EDE2;
   margin-top: 10%;
   margin-left: 15%;
 }
- .name-1{
+.name-1{
    color: #F3EDE2;
    font-size: 2.5vw;
    font-family: 'Kavivanar', cursive;
@@ -83,70 +92,167 @@ border: 2px solid #F3EDE2;
 
    margin-top: -20%;
    margin-left: 32%;
- }
+}
 
- .module2 {
-   width: 15vw;
-   height: 20vw;
-   border: 1px solid white;
-   background-image: url('bio/mich.jpg');
-   background-size: 200px;
+.module2 {
+ width: 15vw;
+ height: 20vw;
+ border: 1px solid white;
+ background-image: url('bio/mich.jpg');
+ background-size: 200px;
 
-   margin-top: 30%;
-   margin-left: 15%;
- }
-  .name-2{
-    color: #F3EDE2;
-    font-size: 2.5vw;
-    font-family: 'Kavivanar', cursive;
+ margin-top: 20%;
+ margin-left: 15%;
+}
+.name-2{
+  color: #F3EDE2;
+  font-size: 2.5vw;
+  font-family: 'Kavivanar', cursive;
+
+  line-height: 80%;
+
+  margin-top: -20%;
+  margin-left: 32%;
+}
+
+.module3 {
+  width: 15vw;
+  height: 20vw;
+  border: 1px solid white;
+  background-image: url('bio/danny.jpg');
+  background-size: 200px;
+
+  margin-top: -40%;
+  margin-left: 58%;
+}
+.name-3{
+ color: #F3EDE2;
+ font-size: 2.5vw;
+ font-family: 'Kavivanar', cursive;
+
+ line-height: 80%;
+
+ margin-top: -20%;
+ margin-left: 75%;
+}
+
+.module4 {
+  width: 15vw;
+  height: 20vw;
+  border: 1px solid white;
+  background-image: url('bio/josh.png');
+  background-size: 200px;
+
+  margin-top: 25%;
+  margin-left: 58%;
+}
+.name-4{
+  color: #F3EDE2;
+  font-size: 2.5vw;
+  font-family: 'Kavivanar', cursive;
+
+  line-height: 80%;
+
+  margin-top: -20%;
+  margin-left: 75%;
+}
+
+.module5 {
+  width: 15vw;
+  height: 20vw;
+  border: 1px solid white;
+  background-image: url('bio/lucas.png');
+  background-size: 200px;
+
+  margin-top: -5.5%;
+  margin-left: 15%;
+}
+.name-5{
+   color: #F3EDE2;
+   font-size: 2.5vw;
+   font-family: 'Kavivanar', cursive;
 
    line-height: 80%;
 
-    margin-top: -20%;
-    margin-left: 32%;
-  }
+   margin-top: -20%;
+   margin-left: 32%;
+}
+.module6 {
+   width: 15vw;
+   height: 20vw;
+   border: 1px solid white;
+   background-image: url('bio/matilda.jpg');
+   background-size: 200px;
 
-  .module3 {
+   margin-top: 5%;
+   margin-left: 58%;
+}
+.name-6{
+  color: #F3EDE2;
+  font-size: 2.5vw;
+  font-family: 'Kavivanar', cursive;
+
+  line-height: 80%;
+
+  margin-top: -20%;
+  margin-left: 75%;
+}
+.module7 {
     width: 15vw;
     height: 20vw;
     border: 1px solid white;
-    background-image: url('bio/danny.jpg');
+    background-image: url('bio/nat.jpg');
     background-size: 200px;
 
-    margin-top: -50%;
+    margin-top: -13%;
+    margin-left: 15%;
+}
+.name-7{
+   color: #F3EDE2;
+   font-size: 2.5vw;
+   font-family: 'Kavivanar', cursive;
+
+  line-height: 80%;
+
+  margin-top: -20%;
+  margin-left: 32%;
+}
+.module8 {
+    width: 15vw;
+    height: 20vw;
+    border: 1px solid white;
+    background-image: url('bio/amanda.jpg');
+    background-size: 200px;
+
+    margin-top: 10%;
     margin-left: 58%;
-  }
-   .name-3{
-     color: #F3EDE2;
-     font-size: 2.5vw;
-     font-family: 'Kavivanar', cursive;
+}
+.name-8{
+   color: #F3EDE2;
+   font-size: 2.5vw;
+   font-family: 'Kavivanar', cursive;
 
-    line-height: 80%;
+  line-height: 80%;
 
-     margin-top: -20%;
-     margin-left: 75%;
-   }
+  margin-top: -20%;
+  margin-left: 75%;
+}
 
-   .module4 {
-     width: 15vw;
-     height: 20vw;
-     border: 1px solid white;
-     background-image: url('bio/josh.png');
-     background-size: 200px;
-
-     margin-top: 20%;
-     margin-left: 58%;
-   }
-    .name-4{
-      color: #F3EDE2;
-      font-size: 2.5vw;
-      font-family: 'Kavivanar', cursive;
-
-     line-height: 80%;
-
-      margin-top: -20%;
-      margin-left: 75%;
-    }
+a:link {
+  color: #EB5600;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #EB5600;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #FFB8A2;
+  background-color: transparent;
+  text-decoration: underline;
+}
 /*---------------social icons--------------------*/
     .fa {
     padding: 10px;

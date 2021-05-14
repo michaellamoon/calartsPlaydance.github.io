@@ -27,7 +27,27 @@ body {
   margin-top: 9%;
   margin-left: 10%;
 }
+.buttonB {
+  position: center;
+  display: block;
+  width: 7vw;
+  height: 2vw;
 
+  font-family: 'Kavivanar', cursive;
+  border-radius: 20px;
+  background-color: #B8A27A;
+  border: none;
+  text-align: center;
+  color: #F3EDE2;
+  font-size: 1vw;
+
+  cursor: pointer;
+}
+.buttonB:hover {
+background: #F3EDE2;
+color: #B8A27A;
+border: 2px solid #B8A27A;
+}
 
 /*---------------pixel--------------------*/
 .videoplacement {
@@ -80,11 +100,12 @@ body {
 
 /*---------------footer--------------------*/
     .footer {
-       position: fixed;
-       left: 0;
-       bottom: 0;
-       width: 100%;
-       background-color: #F3EDE2;
-       color: #B8A27A;
-       text-align: center;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #F3EDE2;
+      color: #B8A27A;
+      text-align: center;
+      font-size: 1vw;
     }

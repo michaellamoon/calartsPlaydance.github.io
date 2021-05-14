@@ -11,9 +11,9 @@
 </head>
 
 <body onload="InitThis();">
-  <div class="color-box" style="background-color:#FFB8A2">
+  <div class="color-box" style="background-color:#FFB8A2;">
     <div id="timerReset" class="countdown">Time left = <span id="timer"></span></div>
-    <h1 class="prompt">  use your cursor to let your imagination
+    <h1 class="prompt">  Use your cursor to let your imagination
       <br>be at play by drawing, because doodling is fun!  <h1>
     <canvas id="myCanvas" style="margin-top: -200px; margin-left: -200px;"></canvas>
   </div>
@@ -22,8 +22,9 @@
 
 <!-- footer -->
 <div class="footer">
-  <a class="p" href="https://calartsPlaydance.github.io/mainpg.html">Back Home?</a>
-  <div align="center">
+  <button class="buttonB" style="margin-top: 1vw; margin-left: 10%;" onclick="window.location.href='http://calartsplaydance.github.io/selNum/index.html'"> <span>play again</span> </button>
+  <button class="buttonB" style="margin-left: 81vw; margin-top: -2vw;" onclick="window.location.href='http://calartsplaydance.github.io/endpg/endpg.html'"> <span>skip to end</span> </button>
+  <div align="center" style="font-size: 3vw;">
       <button onclick="javascript:clearArea();return false;">Clear Area</button>
       Line width :
       <select id="selWidth">
